@@ -1,0 +1,104 @@
+CRITICAL - 2022-06-30 06:45:23 --> Undefined variable: data
+in APPPATH\Views\contentview.php on line 5.
+ 1 APPPATH\Views\contentview.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\contentview.php', 5, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contentview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('contentview', [], true)
+ 5 APPPATH\Controllers\DemoController.php(26): view('contentview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DemoController->view_demo()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DemoController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-30 06:51:02 --> Array to string conversion
+in APPPATH\Controllers\DemoController.php on line 27.
+ 1 APPPATH\Controllers\DemoController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\DemoController.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DemoController->view_demo()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DemoController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-30 06:51:04 --> Array to string conversion
+in APPPATH\Controllers\DemoController.php on line 27.
+ 1 APPPATH\Controllers\DemoController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\DemoController.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DemoController->view_demo()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DemoController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-30 06:51:05 --> Array to string conversion
+in APPPATH\Controllers\DemoController.php on line 27.
+ 1 APPPATH\Controllers\DemoController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\DemoController.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DemoController->view_demo()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DemoController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-30 06:51:06 --> Array to string conversion
+in APPPATH\Controllers\DemoController.php on line 27.
+ 1 APPPATH\Controllers\DemoController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\DemoController.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DemoController->view_demo()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DemoController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-30 06:51:07 --> Array to string conversion
+in APPPATH\Controllers\DemoController.php on line 27.
+ 1 APPPATH\Controllers\DemoController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\DemoController.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DemoController->view_demo()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DemoController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-30 06:51:07 --> Array to string conversion
+in APPPATH\Controllers\DemoController.php on line 27.
+ 1 APPPATH\Controllers\DemoController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\DemoController.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DemoController->view_demo()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DemoController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-30 06:51:08 --> Array to string conversion
+in APPPATH\Controllers\DemoController.php on line 27.
+ 1 APPPATH\Controllers\DemoController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\DemoController.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DemoController->view_demo()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DemoController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-30 06:56:09 --> Array to string conversion
+in APPPATH\Controllers\DemoController.php on line 19.
+ 1 APPPATH\Controllers\DemoController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\DemoController.php', 19, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DemoController->show()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DemoController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-30 06:57:38 --> Undefined variable: data
+in APPPATH\Views\contentview.php on line 5.
+ 1 APPPATH\Views\contentview.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\contentview.php', 5, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contentview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('contentview', [], true)
+ 5 APPPATH\Controllers\DemoController.php(19): view('contentview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DemoController->show()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DemoController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-30 07:29:52 --> compact(): Undefined variable: piyush
+in APPPATH\Controllers\DemoController.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Undefined variable: piyush', 'APPPATH\\Controllers\\DemoController.php', 33, [...])
+ 2 APPPATH\Controllers\DemoController.php(33): compact([...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DemoController->view_demo()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DemoController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-30 07:31:15 --> compact(): Undefined variable: piyush
+in APPPATH\Controllers\DemoController.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Undefined variable: piyush', 'APPPATH\\Controllers\\DemoController.php', 22, [...])
+ 2 APPPATH\Controllers\DemoController.php(22): compact([...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DemoController->show()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DemoController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-30 07:59:07 --> Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\headerview.php on line 3.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('headerview', [], true)
+ 4 APPPATH\Controllers\DemoController.php(41): view('headerview')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DemoController->master()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DemoController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

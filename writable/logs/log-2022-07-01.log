@@ -1,0 +1,24 @@
+CRITICAL - 2022-07-01 07:20:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Controllers\DemoController.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DemoController->getdata_example()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DemoController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 07:43:36 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\ci4_demo\app\Controllers\DemoController.php on line 41
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 APPPATH\Controllers\DemoController.php(41): CodeIgniter\Database\BaseBuilder->get('array')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DemoController->getdata_example()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DemoController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 07:45:43 --> json_decode() expects parameter 1 to be string, object given
+in APPPATH\Controllers\DemoController.php on line 48.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, object given', 'APPPATH\\Controllers\\DemoController.php', 48, [...])
+ 2 APPPATH\Controllers\DemoController.php(48): json_decode(Object(CodeIgniter\Database\MySQLi\Result))
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DemoController->getdata_example()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DemoController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

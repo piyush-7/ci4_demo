@@ -1,0 +1,35 @@
+CRITICAL - 2022-07-04 00:06:23 --> Array to string conversion
+in APPPATH\Controllers\DemoController.php on line 42.
+ 1 APPPATH\Controllers\DemoController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\DemoController.php', 42, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DemoController->dbexample2()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DemoController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 00:07:10 --> Class '' not found
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-04 00:07:55 --> Class '' not found
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-04 00:44:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+in APPPATH\Controllers\DemoController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DemoController->insertdata()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DemoController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 00:45:40 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Controllers\DemoController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DemoController->insertdata()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DemoController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 00:48:09 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Controllers\DemoController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DemoController->insertdata()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DemoController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
